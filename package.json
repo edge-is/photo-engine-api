@@ -1,0 +1,37 @@
+{
+  "name": "photo-engine-api",
+  "version": "0.0.1",
+  "description": "Api for photo-engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edge-is/photo-engine-api"
+  },
+  "keywords": [
+    "api",
+    "photo",
+    "engine"
+  ],
+  "author": "Agust Ingi Kjartansson",
+  "license": "GPL-V2",
+  "bugs": {
+    "url": "https://github.com/edge-is/photo-engine-api/issues"
+  },
+  "homepage": "https://github.com/edge-is/photo-engine-api",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "cluster": "^0.7.7",
+    "elastic.js": "^1.2.0",
+    "elasticsearch": "^8.2.0",
+    "exifjs": "0.0.1",
+    "md5-jkmyers": "0.0.1",
+    "promise": "^7.0.4",
+    "redis": "^2.1.0",
+    "restify": "^4.0.3",
+    "restify-errors": "^3.0.0",
+    "semver": "^5.0.3"
+  }
+}
