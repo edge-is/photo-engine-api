@@ -9,6 +9,8 @@ var client = new elasticsearch.Client({
 
 mappings = {
   get : function (index, type, callback){
+    console.log(index, type)
+
     client.indices.getMapping({
 			index: index,
 			type : type

@@ -18,6 +18,8 @@ var BadUsageError = function (message){
 api = {
   search : function (req, res, next){
 
+    console.log('FUUUUUUUUUUUUUUUUUUUUUUUUCK')
+
     var param, query = req.query.query, filter = req.query.filter;
     if(!query && !filter){
       return next(new errors.BadRequestError ("key:'query' is needed"));
@@ -77,7 +79,7 @@ api = {
     return next();
   },
   mapping : function (req, res, next) {
-    mappings.get('myndasofn', 'image', function (err, response){
+    mappings.get('myndasetur', 'image', function (err, response){
       if(err) return res.send(BadUsageError(err));
       res.send(response);
     });

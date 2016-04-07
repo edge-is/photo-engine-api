@@ -44,9 +44,9 @@ server.use(restify.bodyParser());
 server.use(restify.queryParser({ mapParams: false }));
 
 // Create logger for reqeusts
-server.on('after', restify.auditLogger({
-  log: log
-}));
+// server.on('after', restify.auditLogger({
+//   log: log
+// }));
 
 /**
  * Routing starts here
@@ -54,6 +54,6 @@ server.on('after', restify.auditLogger({
 server.get ({ path : '/api/search/:type', version : DEFAULT_VERSION }, api.search);
 server.get ({ path : '/api/mapping', version : DEFAULT_VERSION }, api.mapping);
 
-server.post({ path : '/api/search/advanced', version : DEFAULT_VERSION }, api.advancedSearch);
+//server.post({ path : '/api/search/advanced', version : DEFAULT_VERSION }, api.advancedSearch);
 
 server.put({ path : '/api/image/:folder', version : DEFAULT_VERSION }, api.image.upload);
