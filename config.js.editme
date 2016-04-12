@@ -3,6 +3,7 @@ var config = {
   elasticsearch : {
     server : 'localhost:9200'
   },
+  index : 'myndasetur',
   default_version : '1.0.0',
   exiftool : "c:\\temp\\exiftool.exe",
   redis : {
