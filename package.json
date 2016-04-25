@@ -25,14 +25,17 @@
     "async": "^2.0.0-rc.2",
     "bunyan": "^1.5.1",
     "cluster": "^0.7.7",
+    "daemon": "^1.1.0",
     "elastic.js": "^1.2.0",
     "elasticsearch": "^8.2.0",
     "exifjs": "0.0.1",
+    "ioredis": "^1.15.1",
     "md5-jkmyers": "0.0.1",
     "promise": "^7.0.4",
-    "redis": "^2.1.0",
+    "redis": "^2.6.0-1",
     "restify": "^4.0.3",
     "restify-errors": "^3.0.0",
-    "semver": "^5.0.3"
+    "semver": "^5.0.3",
+    "tinytim": "^0.1.1"
   }
 }
